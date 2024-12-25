@@ -1,0 +1,134 @@
+/* Post Layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.post-header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8f9fa;
+    margin-bottom: 40px;
+}
+
+.post-title {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+.post-meta {
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.post-meta span {
+    margin: 0 10px;
+}
+
+.post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Hero Image */
+.hero-image {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.featured-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+    color: #6c757d;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Content Styling */
+.lead-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #343a40;
+    margin: 30px 0;
+}
+
+.content-section {
+    margin: 40px 0;
+}
+
+.feature-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.feature-list li {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.feature-list li:hover {
+    transform: translateX(10px);
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+
+.breadcrumb a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.breadcrumb a:hover {
+    color: #0056b3;
+}
+
+.breadcrumb span {
+    color: #6c757d;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 60px;
+    padding: 40px 0;
+    background-color: #f8f9fa;
+    color: white;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-nav a {
+    margin: 0 15px;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
