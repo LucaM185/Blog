@@ -38,7 +38,7 @@ header {
 .media-scroll img, .media-scroll video {
     height: 200px;
     margin-right: 15px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .posts-grid {
@@ -47,15 +47,15 @@ header {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;  /* increased from 20px */
 }
 
 .post-card {
     background: white;
     border: 1px solid #eee;
-    border-radius: 8px;
+    border-radius: 16px;  /* increased from 8px */
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);  /* increased shadow */
     transition: transform 0.3s ease;
 }
 
@@ -75,6 +75,7 @@ header {
     height: 150px;
     object-fit: cover;
     margin-right: 20px;
+    border-radius: 12px;
 }
 
 .post-card h2 {
@@ -93,6 +94,13 @@ header {
 .post-card .date {
     padding: 1rem;
     color: #666;
+}
+
+.featured-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
 footer {
