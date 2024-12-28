@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making tutorials on YouTube</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/blog-post.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hero-section">
+            <div class="hero-image">
+                <img src="../assets/gpts.webp" alt="Tutorial Creation Process" class="featured-image">
+                <div class="overlay"></div>
+            </div>
+            <header class="post-header">
+                <nav class="breadcrumb">
+                    <a href="../index.html">Home</a> / <span>Tutorials</span>
+                </nav>
+                <h1 class="post-title">Making tutorials on YouTube</h1>
+                <div class="post-meta">
+                    <span class="date">December 29, 2024</span>
+                    <span class="read-time">5 min read</span>
+                </div>
+            </header>
+        </div>
+        <main class="post-content">
+            <article>
+                <p class="lead-paragraph">
+                    Exploring the process of creating educational content for YouTube.
+                </p>
+
+                <section class="content-section">
+                    <h2>Thinking Process</h2>
+                    <ul class="feature-list">
+                        <li>
+                            <strong>Why?</strong><br>
+                            Right now if you ask gpt4o, it can explain in detail how transformers work, but LLMs still lack that human touch that makes videos like the ones of 3blue1brown exceptionally cool and easy to understand. 
+                        </li>
+                        <li>
+                            <strong>What?</strong><br>
+                            So i've set out to build a cool series (or single video), targeting 2h of length, which would be aimed at explaining MLP, RNNs, Attention, GPTs and even MAMBA to anyone. 
+                        </li>
+                        <li>
+                            <strong>How?</strong><br>
+                            I have quite a bit of experience creating videos with manim, and i have a github repo ready with the explanations upto the transformer. 
+                        </li>
+                        <li>
+                            <strong>When?</strong><br>
+                            I'm usually crazy with my timelines, i've previously set out to build this by end of year, but it's probably not going to happen. I will still try to rush this, we'll see.
+                        </li>
+                    </ul>
+
+                    <h2>Next plans</h2>
+                    Depending on the level of success of the series, i would allocate a certain amount of time to this kind of research. 
+                    Things i would like to do:
+                    <ul>
+                        <li>Implement mamba in triton</li>
+                        <li>Train a reasoning model, which would be a MLP with MoE looping over a high dimensional hidden state (encoded and decoded by small gpts)</li>
+                        <li>Explore different ways of doing MoE, using Embeddings to "encode" memories instead of hard-coding them in the weights</li>
+                        <li>Implement some kind of delayed choice of experts in MoE, to allow the RAM to load from far away data without interrupting computation</li>
+                    </ul>
+
+                    <h2>Progress</h2>
+
+                    <table class="progress-table">
+                        <tr>
+                            <th></th>
+                            <td>Written</td>
+                            <td>Explained</td>
+                            <td>Recorded</td>
+                            <td>Edited</td>
+                            <td>Uploaded</td>
+                        </tr>
+                        <tr>
+                            <th>Regression</th>
+                            <td>X</td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Perceptron_1</th>
+                            <td>X</td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Perceptron_2</th>
+                            <td>X</td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>PyTorch</th>
+                            <td>X</td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Deep_MLP</th>
+                            <td>X</td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Recurrence</th>
+                            <td>X</td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Attention</th>
+                            <td>X</td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>GPTs</th>
+                            <td>X</td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>MHA/MoE</th>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>MAMBA</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+
+                </section>
+            </article>
+        </main>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>© 2024 Tech Explorations</p>
+            <nav class="footer-nav">
+                <a href="../index.html">Home</a>
+                <a href="../about.html">About</a>
+                <a href="../contact.html">Contact</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

@@ -110,3 +110,26 @@ footer {
     background: #f5f5f5;
     color: white;
 }
+
+.progress-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.progress-table th,
+.progress-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    width: calc(100% / 6); /* Equal width for all columns */
+}
+
+.progress-table th:first-child,
+.progress-table td:first-child {
+    text-align: left;
+}
+
+.progress-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
